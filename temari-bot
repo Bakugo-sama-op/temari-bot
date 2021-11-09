@@ -8,7 +8,7 @@ _get_repolink () {
         echo "aHR0cHM6Ly9naXRodWIuY29tL0Jha3Vnby1zYW1hLW9wL3RlbWFyaS1ib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $temari_REPO == "temariBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0Jha3Vnby1zYW1hLW9wL3RlbWFyaS1ib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $temari_REPO =~ $regex ]]
     then
         if [[ $temari_REPO_BRANCH ]]
@@ -18,7 +18,7 @@ _get_repolink () {
             echo "${temari_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0Jha3Vnby1zYW1hLW9wL3RlbWFyaS1ib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     fi
 }
 
