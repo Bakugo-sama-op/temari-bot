@@ -5,7 +5,7 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $temari_REPO == "temariBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0Jha3Vnby1zYW1hLW9wL3RlbWFyaS1ib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $temari_REPO == "temariBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
