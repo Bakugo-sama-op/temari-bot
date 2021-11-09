@@ -30,11 +30,11 @@
 ------
 ## Status Of Bot 
 <p align="left">
-    <a href="https://github.com/LEGEND-OS/LEGENDBOT/network/members"><img src="https://img.shields.io/github/forks/LEGEND-OS/LEGENDBOT?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/LEGEND-OS/LEGENDBOT/stargazers"><img src="https://img.shields.io/github/stars/LEGEND-OS/LEGENDBOT?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/LEGEND-OS/LEGENDBOT"></a><p align="left"><a href="https://github.com/LEGEND-OS/LEGENDBOT?"></a>
+    <a href="https://github.com/Bakugo-sama-op/temari-bot/network/members"><img src="https://img.shields.io/github/forks/Bakugo-sama-op/temari-bot?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/Bakugo-sama-op/temari-bot/stargazers"><img src="https://img.shields.io/github/stars/Bakugo-sama-op/temari-bot?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/Bakugo-sama-op/temari-bot"></a><p align="left"><a href="https://github.com/Bakugo-sama-op/temari-bot?"></a>
 
 ------
 ## Telegram 🏪
-- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/Legend_Userbot)
+- [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/animenikko)
 - [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Official_LegendBot)
 
 ------
@@ -55,10 +55,10 @@
 
 - Clone the repo. 
 
-`git clone https://github.com/The-LegendBot/LEGENDUSERBOT.git`
+`git clone https://github.com/Bakugo-sama-op/temari-bot.git`
 - Open Cloned Folder.
 
-`cd LEGENDUSERBOT`
+`cd temari-bot`
 - Create VirtualEnv.
 
 `virtualenv -p /usr/bin/python3 venv`
@@ -67,7 +67,7 @@
 - Install Requirements.
 
 `pip install -U -r requirements.txt`
-- Generate Legend STRING.
+- Generate temari STRING.
 
 `python LegendString.py`
 - Create config.py or rename exampleconfig.py to config.py. Fill All The Required Variables.
@@ -81,7 +81,7 @@
 
 - `APP_ID`  =  Get this value from my.telegram.org
 - `API_HASH`  =  Get this value from my.telegram.org
-- `TUTORIAL_STRING`  =  Get this by using [Repl.it](#Repl) or from [terminal](#Terminal)
+- `temari_STRING`  =  Get this by using [Repl.it](#Repl) or from [terminal](#Terminal)
 - `LOGGER_ID`  =  Make A Channel And Get it's ID.
 - `BOT_TOKEN`  =  Make A Bot From [@BotFather](https://t.me/botfather) and paste it's token.
 - `BOT_USERNAME`  =  Get the username of that Bot made from [@Botfather](https://t.me/botfather)
@@ -102,7 +102,7 @@
     - Now Run StringSession Given Below:
    
 
-[![String](https://telegra.ph/file/a6bca4695a54de983c015.jpg)](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py) 
+[![String](https://te.legra.ph/file/c404509f7479e427d54cf.jpg)](https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py) 
 
     - Click On Generate String
     - Then Click On Green Run Button.
@@ -114,7 +114,7 @@
 - Open the terminal.
 - Paste this code.
 
-`pkg install python wget -y && pip install telethon && wget https://raw.githubusercontent.com/LEGEND-BOYOP/TUTORIALUSERBOT/master/LegendString.py && python3 LegendString.py`
+`pkg install python wget -y && pip install telethon && wget https://raw.githubusercontent.com/Bakugo-sama-op/temari-bot/master/LegendString.py && python3 LegendString.py`
 - Fill API ID, API HASH, Phone number (with country code).
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
@@ -125,7 +125,7 @@
 ------
 ## Disclaimer
 - We won't be responsible for any kind of ban due to this bot.
-- TutorialBot was made for fun purpose and to make group management easier.
+- temari-bot was made for fun purpose and to make group management easier.
 - It's your concern if you spam and gets your account banned.
 - Also, Forks won't be entertained.
 - If you fork this repo and edit plugins, it's your concern for further updates.
@@ -138,9 +138,9 @@
 
 ![](https://www.gnu.org/graphics/gplv3-or-later.png)
 
-LEGEND-OS
+Bakugo-sama-op
 
-Poject [LEGENDBOT](https://github.com/LEGEND-OS/LEGENDBOT) is free software: you can redistribute it and/or modify
+Poject [temari-bot](https://github.com/Bakugo-sama-op/temari-bot) is free software: you can redistribute it and/or modify
 
 it under the terms of the GNU General Public License as published by
 
