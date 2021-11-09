@@ -1,11 +1,11 @@
 #Repo Clonning ⚡♥️
-RUN git clone https://github.com/Bakugo-sama-op/temari-bot.git /root/TEMARI USERBOT
+RUN git clone https://github.com/Bakugo-sama-op/temari-bot.git /root/temari-bot
 
 #working directory 
-WORKDIR /root/TEMARI USERBOT
+WORKDIR /root/temari-bot
 
 # Install requirements
-RUN pip3 install -U -r./TEMARI USERBOT
+RUN pip3 install -U -r./temari-bot
 
 ENV PATH="/home/userbot/bin:$PATH"
 
