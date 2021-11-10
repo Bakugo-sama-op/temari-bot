@@ -23,6 +23,17 @@
     "options": {
       "version": "12"
     }
+        "PM_DATA": {
+
+      "description": "Type DISABLE if you want to disable pm protection... ",
+
+      "value": "ENABLE",
+
+      "required": true
+
+    }
+
+  },
   }],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
