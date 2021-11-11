@@ -1,6 +1,6 @@
 {
   "name": "𝙏𝙚𝙢𝙖𝙧𝙞-𝙗𝙤𝙩",
-  "description": " no description yrr.. kuch smjh hi nhi aa rha🖤💌🤣",
+  "description": "no description yrr.. kuch smjh hi nhi aa rha🖤💌🤣",
   "logo": "https://te.legra.ph/file/fbf7a568d50ae1baa3074.jpg",
   "keywords": [
     "telegram",
@@ -12,45 +12,12 @@
   ],
   "repository": "https://github.com/Bakugo-sama-op/temari-bot/",
   "website": "https://github.com/Bakugo-sama-op/temari-bot/",
-  "success_url": "https://t.me/orekki_sama",
+  "success_url": "https://t.me/Legend_Userbot",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
-  "addons": [{
-    "plan": "heroku-postgresql",
-    "options": {
-      "version": "12"
-    }
-        "PM_DATA": {
-
-      "description": "Type DISABLE if you want to disable pm protection... ",
-
-      "value": "ENABLE",
-
-      "required": true
-
-    }
-
-  },
-  }],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
-  },{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-  },{
-    "url": "heroku/python"
-  }]
-}
 
 
 
