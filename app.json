@@ -18,6 +18,324 @@
       "description": "Set this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
+        "ALIVE_NAME": {
+
+      "description": "Fill your Full name. By default it is LEGEND User",
+
+      "value": "Lêɠêɳ̃dẞøY",
+
+      "required": false
+
+    },
+
+    "ALIVE_MSG": {
+
+      "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
+
+      "value": "𝙏𝙚𝙢𝙖𝙧𝙞-𝙗𝙤𝙩 𝐈𝐬 Online",
+
+      "required": false
+
+    },
+
+    "ABUSE": {
+
+      "description": "ON or OFF",
+
+      "value": "ON",
+
+      "required" :true
+
+    },
+
+    "EXTRA_PLUGIN": {
+
+      "description": "ON or OFF",
+
+      "value": "ON",
+
+      "required" :true
+
+    },
+
+    "SPAM": {
+
+      "description": "ON or OFF",
+
+      "value": "ON",
+
+      "required" :true
+
+    },
+
+    "ASSISTANT": {
+
+      "description": "ON or OFF",
+
+      "value": "ON",
+
+      "required" :true
+
+    },
+
+    "YOUR_GROUP": {
+
+      "description": "Set Ur Group Username",
+
+      "value": "@animenikko",
+
+      "required": false
+
+    },
+
+    "YOUR_CHANNEL": {
+
+      "description": "Set Ur Group Username",
+
+      "value": "@AnimeWallCave",
+
+      "required": false
+
+    },
+
+    "BOY_OR_GIRL": {
+
+      "description": "Set If U are Boy Or Girl",
+
+      "value": "Boy",
+
+      "required": false
+
+    },
+
+    "AWAKE_PIC": {
+
+      "description": "Put here any telegraph media link for awake pic in .awake Or .bot command.",
+
+      "value": "https://te.legra.ph/file/45c4e41881f7b7b72e6b9.jpg",
+
+      "required": false
+
+    },
+
+    "OP_PIC": {
+
+      "description": "Put here any telegraph media link for OP pic in .op command.",
+
+      "value": "https://te.legra.ph/file/c404509f7479e427d54cf.jpg",
+
+      "required": false
+
+    },
+
+    "ALIVE_PIC": {
+
+      "description": "Put here any telegraph media link for alive pic in .alive Or .legend command.",
+
+      "value": "",
+
+      "required": false
+
+    },
+
+    "BIO_MSG": {
+
+      "description": "Put Your Telegram Bio Here Required For Auto Bio.",
+
+      "value": "shut up bitches the fabulous one is here 🤍😏",
+
+      "required": true
+
+    },
+
+    "PM_PIC": {
+
+      "description": "put here any telegraph media link for custom pmpermit pic.",
+
+      "value": "https://te.legra.ph/file/9cdc7d6498e04bed3458e.jpg",
+
+      "required": false
+
+    },
+
+    "PM_MSG": {
+
+      "description": "Enter Your custom pm permit msg.",
+
+      "value": "bitches shut up my master will come back soon🤣",
+
+      "required": false
+
+    },
+
+    "MAX_FLOOD_IN_PM": {
+
+      "description": "Now U Can Set Custom Flood In DM / PM by default it is 5",
+
+      "value": "5",
+
+      "required": true
+
+    },
+
+    "LOGGER_ID": {
+
+      "description": "Create a private channel. And get it's id from @missrose_bot and paste here. Value should start with -100",
+
+      "value": "",
+
+      "required": true
+
+    },
+
+    "APP_ID": {
+
+      "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
+
+      "value": ""
+
+    },
+
+    "SUDO_USERS": {
+
+      "description": "Enter your friends user id to to give him bot full access",
+
+      "value": "",
+
+      "required": false
+
+    },
+
+    "SUDO_COMMAND_HAND_LER": {
+
+      "description": "Please enter sudo user command handler",
+
+      "value": ",",
+
+      "required": false
+
+    },
+
+    "COMMAND_HAND_LER": {
+
+      "description": "U can Change Ur command Handler By Default it is (.)",
+
+      "value": ".",
+
+      "required": true
+
+      },
+
+    "API_HASH": {
+
+      "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
+
+      "value": ""
+
+    },
+
+    "PLUGIN_CHANNEL": {
+
+      "description": "Copy Group Id And paste here To Get Plugin Channel ID copy and paste here",
+
+      "value": ""
+
+    }, 
+
+    "TEMARI_STRING": {
+
+      "description": "Get this value by running https://repl.it/@KrishnaJaiswal1/LEGENDBOT#main.py ",
+
+      "value": ""
+
+    },
+
+    "HEROKU_API_KEY": {
+
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+
+      "value": "",
+
+      "required": true
+
+    },
+
+    "HEROKU_APP_NAME": {
+
+      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+
+      "value": "",
+
+      "required": true
+
+    },
+
+    "BOT_TOKEN": {
+
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+
+      "value": ""
+
+    },
+
+    "BOT_USERNAME": {
+
+      "description": "Needed for inline buttons maker. Make a bot at @BotFather and copy the username of your bot.",
+
+      "value": ""
+
+    },
+
+    "NO_OF_BUTTONS": {
+
+      "description": " Set The Amount Of Buttons Displayed In legend Command default 7",
+
+      "value": "7",
+
+      "required": true
+
+    },
+
+    "NO_OF_COLUMNS": {
+
+      "description": "Set The Amount Of Rows You Want To Displayed In legend Command default 2",
+
+      "value": "2",
+
+      "required": true
+
+    },
+
+    "EMOJI_IN_HELP1": {
+
+      "description": "Set The emojies You Want to Add In Help Command!!",
+
+      "value": "⚜",
+
+      "required": true
+
+    },
+
+    "EMOJI_IN_HELP2": {
+
+      "description": "Set The emojies You Want to Add In Help Command!!",
+
+      "value": "⚜",
+
+      "required": false
+
+    },
+        "PM_DATA": {
+
+      "description": "Type DISABLE if you want to disable pm protection... ",
+
+      "value": "ENABLE",
+
+      "required": true
+
+    }
+
+  },
   "addons": [{
 
     "plan": "heroku-postgresql",
